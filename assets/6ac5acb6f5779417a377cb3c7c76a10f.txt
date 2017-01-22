@@ -1,0 +1,678 @@
+<!DOCTYPE html><!--[if lt IE 7]>      <html lang="en-gb" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--><!--[if IE 7]>         <html lang="en-gb" class="no-js lt-ie9 lt-ie8"> <![endif]--><!--[if IE 8]>         <html lang="en-gb" class="no-js lt-ie9"> <![endif]--><!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml" lang="en-gb" class="no-js"><!--<![endif]--><head>
+        <title>
+    Clothing | 
+     TestLadies - sandbox
+
+</title>
+
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="created" content="15th Jan 2017 03:29" />
+        <meta name="description" content="&#10;    &#10;" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="robots" content="NOARCHIVE,NOCACHE" />
+
+        <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        
+            <link rel="shortcut icon" href="/static/oscar/favicon.ico" />
+        
+
+        
+        
+    
+    
+        <link rel="stylesheet" type="text/css" href="/static/oscar/css/styles.css" />
+    
+    <link rel="stylesheet" href="/static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css" />
+    <link rel="stylesheet" type="text/css" href="/static/oscar/css/datetimepicker.css" />
+
+
+        
+        
+
+        
+
+        
+            
+            
+
+        
+    </head>
+
+    <body id="default" class="default">
+        
+        
+    
+    
+
+<div id="top_page" class="navbar navbar-default navbar-static-top accounts">
+    
+    <div class="navbar-header">
+        <a class="btn btn-default navbar-toggle collapsed" data-toggle="collapse" data-target=".account-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </a>
+    </div>
+
+    <div class="navbar-collapse account-collapse collapse">
+        <div class="container-fluid">
+            
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        
+                            <a href="/accounts/"><i class="icon-user"></i> Account</a>
+                        
+                    </li>
+                    
+                    <li><a id="logout_link" href="/accounts/logout/"><i class="icon-signout"></i> Logout</a></li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+    
+    <header class="header container-fluid">
+        <div class="page_inner">
+            <div class="row">
+                <div class="col-sm-7 h1"><a href="/catalogue/">TestLadies</a><small> sandbox</small></div>
+
+                
+                
+
+
+<div class="basket-mini pull-right hidden-xs">
+    <strong>Basket total:</strong>
+    
+        £33.99
+    
+
+    <span class="btn-group">
+        <a class="btn btn-default" href="/basket/">View basket</a>
+        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu pull-right">
+            <li>
+
+
+
+
+
+
+<ul class="basket-mini-item list-unstyled">
+    
+        
+            <li>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="image_container">
+                            
+                                
+                                <a href="/catalogue/metasploit_193/"><img class="thumbnail" src="/media/cache/15/ff/15ff0011eeac6af49a248b1267134e04.jpg" alt="Metasploit" /></a>
+                                
+                            
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <p><strong><a href="/catalogue/metasploit_193/">Metasploit</a></strong></p>
+                    </div>
+                    <div class="col-sm-1 align-center"><strong>Qty</strong> 1</div>
+                    <div class="col-sm-3 price_color align-right">£18.99</div>
+                </div>
+            </li>
+        
+            <li>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="image_container">
+                            
+                                
+                                <a href="/catalogue/django-t-shirt_10/"><img class="thumbnail" src="/media/cache/e2/92/e292f1329ccfc332f343e8382f514141.jpg" alt="Django T-shirt" /></a>
+                                
+                            
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <p><strong><a href="/catalogue/django-t-shirt_10/">Django T-shirt (Size: Medium)</a></strong></p>
+                    </div>
+                    <div class="col-sm-1 align-center"><strong>Qty</strong> 1</div>
+                    <div class="col-sm-3 price_color align-right">£15.00</div>
+                </div>
+            </li>
+        
+        <li class="form-group form-actions">
+            <p class="align-right">
+                
+                    <small>Total: £33.99</small> 
+                
+            </p>
+            <a href="/basket/" class="btn btn-info btn-sm">View basket</a>
+            <a href="/checkout/" class="btn btn-primary btn-sm pull-right"><i class="icon-shopping-cart"></i> Checkout</a>
+        </li>
+    
+</ul>
+</li>
+        </ul>
+    </span>
+</div>
+            </div>
+        </div>
+        
+            
+
+
+
+<div class="navbar primary navbar-static-top navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header pull-right">
+            
+            <a class="btn btn-default navbar-toggle collapsed" data-toggle="collapse" data-target=".primary-collapse">
+                <span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </span>
+            </a>
+        </div>
+
+        <a class="btn btn-default navbar-btn btn-cart navbar-right visible-xs-inline-block" href="/basket/">
+            <i class="icon-shopping-cart"></i>
+            Basket
+            
+                
+                    
+                        Total: £33.99
+                    
+                
+            
+        </a>
+
+
+        <div class="navbar-collapse primary-collapse collapse">
+            
+                <ul id="browse" class="nav navbar-nav">
+                    <li class="dropdown active ">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Browse store
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu" data-navigation="dropdown-menu">
+                            
+                            <li><a tabindex="-1" href="/catalogue/">All products</a></li>
+                            
+                                <li class="divider"></li>
+                                
+                                    
+                                                <li><a tabindex="-1" href="/catalogue/category/clothing_1/">Clothing</a></li>
+                                            
+
+                                            
+                                
+                                    
+                                        <li class="dropdown-submenu">
+                                            <a tabindex="-1" href="/catalogue/category/books_2/">Books</a>
+                                            <ul class="dropdown-menu">
+                                            
+
+                                            
+                                
+                                    
+                                                <li><a tabindex="-1" href="/catalogue/category/books/fiction_3/">Fiction</a></li>
+                                            
+
+                                            
+                                
+                                    
+                                                <li><a tabindex="-1" href="/catalogue/category/books/non-fiction_5/">Non-Fiction</a></li>
+                                            
+
+                                            
+                                                </ul></li>
+                                            
+                                
+                            
+                            <li class="divider"></li>
+                            
+                                <li><a href="/offers/">Offers</a></li>
+                            
+                        </ul>
+                    </li>
+                    
+                    
+                </ul>
+            
+            
+
+<form method="get" action="/search/" class="navbar-form navbar-right">
+    <div class="form-group">
+        <input class="form-control" id="id_q" name="q" placeholder="Search" tabindex="1" type="search" />
+    </div>
+    <input type="submit" value="Search" class="btn btn-default" />
+</form>
+
+        </div><!-- /navbar-collapse -->
+    </div>
+</div><!-- /navbar -->
+
+        
+    </header>
+
+    
+    
+<div class="container-fluid page">
+    <div class="page_inner">
+        
+    <ul class="breadcrumb">
+        <li>
+            <a href="/catalogue/">Home</a>
+        </li>
+        
+        <li class="active">Clothing</li>
+    </ul>
+
+        <div class="row">
+
+            <aside class="sidebar col-sm-4 col-md-3">
+                
+                <div id="promotions_left">
+                    
+                </div>
+                
+    
+    
+        <h4>Show results for</h4>
+        <div class="side_categories">
+            <ul class="nav nav-list">
+                
+                    <li>
+                        <a href="/catalogue/category/clothing_1/">
+                            
+                                <strong>Clothing</strong>
+                            
+                        </a>
+
+                        </li>
+                        
+                
+                    <li>
+                        <a href="/catalogue/category/books_2/">
+                            
+                                Books
+                            
+                        </a>
+
+                        <ul>
+                        
+                
+                    <li>
+                        <a href="/catalogue/category/books/fiction_3/">
+                            
+                                Fiction
+                            
+                        </a>
+
+                        <ul>
+                        
+                
+                    <li>
+                        <a href="/catalogue/category/books/fiction/computers-in-literature_4/">
+                            
+                                Computers in Literature
+                            
+                        </a>
+
+                        </li>
+                        
+                            </ul></li>
+                        
+                
+                    <li>
+                        <a href="/catalogue/category/books/non-fiction_5/">
+                            
+                                Non-Fiction
+                            
+                        </a>
+
+                        <ul>
+                        
+                
+                    <li>
+                        <a href="/catalogue/category/books/non-fiction/essential-programming_6/">
+                            
+                                Essential programming
+                            
+                        </a>
+
+                        </li>
+                        
+                
+                    <li>
+                        <a href="/catalogue/category/books/non-fiction/hacking_7/">
+                            
+                                Hacking
+                            
+                        </a>
+
+                        </li>
+                        
+                            </ul></li>
+                        
+                            </ul></li>
+                        
+                
+            </ul>
+        </div>
+    
+    
+
+            </aside>
+
+            <div class="col-sm-8 col-md-9">
+                
+                <div class="page-header action">
+                    <h1>Clothing</h1>
+                </div>
+                
+
+                
+
+
+
+<div id="messages">
+
+</div>
+
+
+                <div id="promotions">
+                    
+                </div>
+
+                
+    
+    
+
+    <form method="get" class="form-horizontal">
+        
+        <div style="display:none">
+            
+            
+        </div>
+
+        
+            
+                
+                    <strong>3</strong> results.
+                
+            
+            
+        
+    </form>
+
+    
+        <section>
+            <div>
+                <ol class="row">
+                    
+                        <li class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+
+
+
+
+
+    <article class="product_pod">
+        
+            <div class="image_container">
+                
+                    
+                    <a href="/catalogue/django-t-shirt_8/"><img src="/media/cache/5a/20/5a2064d971bea247a35bf690f92acc60.jpg" alt="Django T-shirt" class="thumbnail" /></a>
+                    
+                
+            </div>
+        
+
+        
+            
+                <p class="star-rating ">
+                    <i class="icon-star"></i>
+                    <i class="icon-star"></i>
+                    <i class="icon-star"></i>
+                    <i class="icon-star"></i>
+                    <i class="icon-star"></i>
+                </p>
+            
+        
+
+        
+            <h3><a href="/catalogue/django-t-shirt_8/" title="Django T-shirt">Django T-shirt</a></h3>
+        
+
+        
+            <div class="product_price">
+                
+
+
+
+
+
+
+    
+        <p class="price_color">£15.00</p>
+    
+
+<p class="available availability">
+    <i class="icon-ok"></i>
+    
+        Available
+    
+</p>
+
+                
+            </div>
+        
+    </article>
+
+</li>
+                    
+                        <li class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+
+
+
+
+
+    <article class="product_pod">
+        
+            <div class="image_container">
+                
+                    
+                    <a href="/catalogue/commandlinefu-t-shirt_5/"><img src="/media/cache/ee/d6/eed6bcfd8732ca981f2d25a20233226c.jpg" alt="commandlinefu T-shirt" class="thumbnail" /></a>
+                    
+                
+            </div>
+        
+
+        
+            
+                <p class="star-rating ">
+                    <i class="icon-star"></i>
+                    <i class="icon-star"></i>
+                    <i class="icon-star"></i>
+                    <i class="icon-star"></i>
+                    <i class="icon-star"></i>
+                </p>
+            
+        
+
+        
+            <h3><a href="/catalogue/commandlinefu-t-shirt_5/" title="commandlinefu T-shirt">commandlinefu T-shirt</a></h3>
+        
+
+        
+            <div class="product_price">
+                
+
+
+
+
+
+
+    
+        <p class="price_color">£10.00</p>
+    
+
+<p class="unavailable availability">
+    <i class="icon-remove"></i>
+    
+        Unavailable
+    
+</p>
+
+                
+            </div>
+        
+    </article>
+
+</li>
+                    
+                        <li class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+
+
+
+
+
+    <article class="product_pod">
+        
+            <div class="image_container">
+                
+                    
+                    <a href="/catalogue/oscar-t-shirt_1/"><img src="/media/cache/ee/d6/eed6bcfd8732ca981f2d25a20233226c.jpg" alt="Oscar T-shirt" class="thumbnail" /></a>
+                    
+                
+            </div>
+        
+
+        
+            
+                <p class="star-rating ">
+                    <i class="icon-star"></i>
+                    <i class="icon-star"></i>
+                    <i class="icon-star"></i>
+                    <i class="icon-star"></i>
+                    <i class="icon-star"></i>
+                </p>
+            
+        
+
+        
+            <h3><a href="/catalogue/oscar-t-shirt_1/" title="Oscar T-shirt">Oscar T-shirt</a></h3>
+        
+
+        
+            <div class="product_price">
+                
+
+
+
+
+
+
+    <p class="price_color"> </p>
+
+<p class="unavailable availability">
+    <i class="icon-remove"></i>
+    
+        Unavailable
+    
+</p>
+
+                
+            </div>
+        
+    </article>
+
+</li>
+                    
+                </ol>
+                
+
+
+
+
+            </div>
+        </section>
+    
+
+
+
+            </div>
+
+        </div><!-- /row -->
+    </div><!-- /page_inner -->
+</div><!-- /container-fluid -->
+
+
+    
+<footer class="footer container-fluid">
+    
+        
+    
+</footer>
+
+
+        
+        
+  
+            <!-- jQuery -->
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+            <script>window.jQuery || document.write('&lt;script src="/static/oscar/js/jquery/jquery-1.9.1.min.js"&gt;&lt;\/script&gt;')</script>
+        
+  
+
+
+        
+        
+    
+        
+    <!-- Twitter Bootstrap -->
+    <script type="text/javascript" src="/static/oscar/js/bootstrap3/bootstrap.min.js"></script>
+    <!-- Oscar -->
+    <script src="/static/oscar/js/oscar/ui.js" type="text/javascript" charset="utf-8"></script>
+
+    <script src="/static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js" type="text/javascript" charset="utf-8"></script>
+
+
+        
+        
+    
+
+    
+
+
+        
+        <script type="text/javascript">
+            $(function() {
+                
+    
+    
+    oscar.init();
+
+    oscar.search.init();
+
+            });
+        </script>
+
+        
+        <!-- Version: N/A -->
+    
+
+</body></html>
